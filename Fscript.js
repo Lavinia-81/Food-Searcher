@@ -34,7 +34,7 @@ function getMealList(){
             });
             mealList.classList.remove('notFound');
         } else{
-            html = "Sorry, we didn't find any meal!";
+            html = "Sorry, I have no found any meal aviable for your selected ingredient! Make sure you wrote it corectly or try another ingredient.";
             mealList.classList.add('notFound');
         }
 
